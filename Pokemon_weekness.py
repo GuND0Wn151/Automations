@@ -32,7 +32,9 @@ try:
       for i in weekness:
             if len(i)>2 and i!='Weaknesses':
                   final_weekness.append(i)
-      print(*final_weekness)
+      print("The Weekness types of "+Poke_name+" are: ")
+      for i in range(len(final_weekness)):
+            print(i+1,". ",final_weekness[i])
 
 
 except:
